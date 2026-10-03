@@ -1,0 +1,70 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Django
+*.sqlite3
+staticfiles/
+media/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# Local HTTPS certificates - never upload private keys
+certificates/
+**/certificates/
+*.pem
+*.key
+
+# Sample output and screenshots - exclude if not intended for sharing
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.sqlite3
+
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+
+# Local HTTPS certificates
+**/certificates/
+*.pem
+*.key
+
+# Generated files
+staticfiles/
+
+# Large demo video - keep locally, don't push to GitHub
+/Sample output(video,Screenshot)/GeoTrack.mp4
